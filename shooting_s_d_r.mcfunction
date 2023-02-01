@@ -41,8 +41,8 @@ execute as @a[tag=p1,tag=shooter] run scoreboard players operation rem2 storage 
 execute as @a[tag=p1,tag=shooter] run scoreboard players operation rem3 storage += @s sz
 execute as @a[tag=p1,tag=shooter] run scoreboard players operation rem3 storage *= rem3 storage
 
-execute as @a[tag=p1,tag=shooter] run scoreboard players operation rem1 storage +=rem2 storage
-execute as @a[tag=p1,tag=shooter] run scoreboard players operation rem1 storage +=rem3 storage
+execute as @a[tag=p1,tag=shooter] run scoreboard players operation rem1 storage += rem2 storage
+execute as @a[tag=p1,tag=shooter] run scoreboard players operation rem1 storage += rem3 storage
 
 execute as @a[tag=p1,tag=shooter] run scoreboard players operation @s storage -= rem1 storage
 
@@ -75,8 +75,8 @@ execute as @a[tag=p2,tag=shooter] run scoreboard players operation rem2 storage 
 execute as @a[tag=p2,tag=shooter] run scoreboard players operation rem3 storage += @a[tag=p1,limit=1] sz
 execute as @a[tag=p2,tag=shooter] run scoreboard players operation rem3 storage *= rem3 storage
 
-execute as @a[tag=p2,tag=shooter] run scoreboard players operation rem1 storage +=rem2 storage
-execute as @a[tag=p2,tag=shooter] run scoreboard players operation rem1 storage +=rem3 storage
+execute as @a[tag=p2,tag=shooter] run scoreboard players operation rem1 storage += rem2 storage
+execute as @a[tag=p2,tag=shooter] run scoreboard players operation rem1 storage += rem3 storage
 
 execute as @a[tag=p2,tag=shooter] run scoreboard players operation @s storage -= rem1 storage
 
