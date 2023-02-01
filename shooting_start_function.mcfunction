@@ -17,6 +17,6 @@ execute as @a[tag=p2,tag=shooter,limit=1,scores={storage=0..}] run effect give @
 execute as @a[tag=shooter] at @s run playsound minecraft:entity.zombie.attack_iron_door voice @s ~ ~ ~ 1 2 0
 
 #reset
-scoreboard players set @a[tag=shooter] storage 1
+scoreboard players set @a[tag=shooter] storage -1
 scoreboard players set @a[tag=shooter] cooltime_shooter 0
 tag @a[tag=shooter] remove shooter
