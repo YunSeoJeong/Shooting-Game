@@ -87,6 +87,9 @@ execute as @a[tag=p2,tag=shooter] run scoreboard players operation @s storage +=
 
 
 
+#------------
 
+execute as @a[tag=p1,tag=shooter,limit=1,scores={storage=0..}] run effect give @a[tag=p2,limit=1] minecraft:instant_damage 1 1 true
+execute as @a[tag=p2,tag=shooter,limit=1,scores={storage=0..}] run effect give @a[tag=p1,limit=1] minecraft:instant_damage 1 1 true
 
 
