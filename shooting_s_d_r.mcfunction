@@ -7,9 +7,9 @@ execute store result score @a[tag=p2,limit=1] dx run data get entity @e[tag=m2,l
 execute store result score @a[tag=p2,limit=1] dy run data get entity @e[tag=m2,limit=1] Pos[1] 100
 execute store result score @a[tag=p2,limit=1] dz run data get entity @e[tag=m2,limit=1] Pos[2] 100
 
-execute store result score @a px run data get entity @s Pos[0] 100
-execute store result score @a py run data get entity @s Pos[1] 100
-execute store result score @a pz run data get entity @s Pos[2] 100
+execute as @a run execute store result score @s px run data get entity @s Pos[0] 100
+execute as @a run execute store result score @s py run data get entity @s Pos[1] 100
+execute as @a run execute store result score @s pz run data get entity @s Pos[2] 100
 
 scoreboard players add @a py 120
 
