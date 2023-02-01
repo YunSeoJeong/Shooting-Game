@@ -10,8 +10,7 @@ item replace entity @a[tag=shooter] weapon.offhand with minecraft:air
 execute if entity @a[tag=shooter] run function bass:shooting_s_d_r
 
 #effect
-execute as @a[tag=p1,tag=shooter,limit=1,scores={storage=0..}] run effect give @a[tag=p2,limit=1] minecraft:instant_damage 1 1 true
-execute as @a[tag=p2,tag=shooter,limit=1,scores={storage=0..}] run effect give @a[tag=p1,limit=1] minecraft:instant_damage 1 1 true
+
 
 #sory
 execute as @a[tag=shooter] at @s run playsound minecraft:entity.zombie.attack_iron_door voice @s ~ ~ ~ 1 2 0
