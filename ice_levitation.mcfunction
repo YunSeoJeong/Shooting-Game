@@ -1,0 +1,10 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:respawn_anchor",tag:{display:{Name:'{"text":"stone_of_levitation","color":"dark_green","bold":true}',Lore:['{"text":"fly...."}']}}}}] at @s run tag @s add levitation_player
+execute as @a[nbt=!{SelectedItem:{id:"minecraft:respawn_anchor",tag:{display:{Name:'{"text":"stone_of_levitation","color":"dark_green","bold":true}',Lore:['{"text":"fly...."}']}}}}] at @s run tag @s remove levitation_player
+execute as @a[tag=levitation_player] at @s run setblock ^ ^ ^1.5 glass keep
+execute as @a[tag=levitation_player] at @s run fill ~2 -2 ~2 ~2 ~2 ~-2 air replace minecraft:glass
+execute as @a[tag=levitation_player] at @s run fill ~2 ~-2 ~2 ~-2 ~2 ~2 air replace minecraft:glass
+execute as @a[tag=levitation_player] at @s run fill ~-2 ~-2 ~2 ~-2 ~2 ~-2 air replace minecraft:glass
+execute as @a[tag=levitation_player] at @s run fill ~2 ~-2 ~-2 ~-2 ~2 ~-2 air replace minecraft:glass
+execute as @a[tag=levitation_player] at @s run fill ~2 ~-2 ~2 ~-2 ~-2 ~-2 air replace minecraft:glass
+execute as @a[tag=levitation_player] at @s run fill ~2 ~2 ~2 ~-2 ~2 ~-2 air replace minecraft:glass
+execute as @a[tag=!levitation_player] at @s run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air replace minecraft:glass
