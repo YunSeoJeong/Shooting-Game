@@ -1,0 +1,21 @@
+
+particle flame ^0.944 ^0.306 ^10.881 0 0 0 0 1 force @a
+particle flame ^1.049 ^0.383 ^14.683 0 0 0 0 1 force @a
+particle flame ^0.739 ^0.300 ^11.781 0 0 0 0 1 force @a
+particle flame ^1.138 ^0.510 ^13.320 0 0 0 0 1 force @a
+particle flame ^0.683 ^0.336 ^13.597 0 0 0 0 1 force @a
+particle flame ^1.042 ^0.560 ^11.697 0 0 0 0 1 force @a
+particle flame ^0.787 ^0.459 ^14.964 0 0 0 0 1 force @a
+particle flame ^0.825 ^0.522 ^11.140 0 0 0 0 1 force @a
+particle flame ^0.934 ^0.639 ^14.868 0 0 0 0 1 force @a
+particle flame ^0.634 ^0.468 ^12.141 0 0 0 0 1 force @a
+particle flame ^0.978 ^0.777 ^13.440 0 0 0 0 1 force @a
+particle flame ^0.582 ^0.498 ^13.973 0 0 0 0 1 force @a
+particle flame ^0.863 ^0.793 ^11.854 0 0 0 0 1 force @a
+particle flame ^0.660 ^0.651 ^15.258 0 0 0 0 1 force @a
+particle flame ^0.659 ^0.698 ^11.407 0 0 0 0 1 force @a
+particle flame ^0.755 ^0.861 ^15.045 0 0 0 0 1 force @a
+particle flame ^0.493 ^0.604 ^12.506 0 0 0 0 1 force @a
+particle flame ^0.755 ^0.996 ^13.559 0 0 0 0 1 force @a
+particle flame ^0.444 ^0.631 ^14.345 0 0 0 0 1 force @a
+particle flame ^0.632 ^0.971 ^12.017 0 0 0 0 1 force @a
