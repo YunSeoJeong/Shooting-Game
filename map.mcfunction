@@ -1,24 +1,3 @@
-#summon marker ~ ~1 ~0.5 {Tags:["tile","x"]}
-#summon marker ~ ~1 ~-0.5 {Tags:["tile","x"]}
-#summon marker ~ ~ ~0.5 {Tags:["tile","x"]}
-#summon marker ~ ~ ~-0.5 {Tags:["tile","x"]}
-#
-#summon marker ~0.5 ~0.5 ~0.5 {Tags:["tile","y"]}
-#summon marker ~0.5 ~0.5 ~-0.5 {Tags:["tile","y"]}
-#summon marker ~-0.5 ~0.5 ~0.5 {Tags:["tile","y"]}
-#summon marker ~-0.5 ~0.5 ~-0.5 {Tags:["tile","y"]}
-#
-#summon marker ~0.5 ~1 ~ {Tags:["tile","z"]}
-#summon marker ~0.5 ~ ~ {Tags:["tile","z"]}
-#summon marker ~-0.5 ~1 ~ {Tags:["tile","z"]}
-#summon marker ~-0.5 ~ ~ {Tags:["tile","z"]}
-#
-#summon marker ~ ~0.5 ~ {Tags:["counter"]}
-#execute as @e[tag=counter] 
-#
-#setblock ~ ~ ~ stone
-#kill
-
 summon marker ~ ~ ~ {Tags:["tile","x"]}
 summon marker ~ ~ ~ {Tags:["tile","x"]}
 summon marker ~ ~ ~ {Tags:["tile","x"]}
@@ -53,5 +32,13 @@ tp @e[tag=tile, tag=z, distance=..0.1, limit=1] ~-0.5 ~-0.5 ~
 
 scoreboard players add @e[tag=tile, distance=..0.8] sideCount 1
 
-setblock ~ ~ ~ barrier
+execute unless block ~1 ~ ~ air unless block ~1 ~ ~ grass_block unless block ~1 ~ ~ dirt run summon shulker ~1 ~ ~
+execute unless block ~-1 ~ ~ air unless block ~-1 ~ ~ grass_block unless block ~-1 ~ ~ dirt run summon shulker ~-1 ~ ~
+
+execute unless block ~ ~1 ~ air unless block ~ ~1 ~ grass_block unless block ~ ~1 ~ dirt run summon shulker ~ ~1 ~
+execute unless block ~ ~-1 ~ air unless block ~ ~-1 ~ grass_block unless block ~ ~-1 ~ dirt run summon shulker ~ ~-1 ~
+
+execute unless block ~ ~ ~1 air unless block ~ ~ ~1 grass_block unless block ~ ~ ~1 dirt run summon shulker ~ ~ ~1
+execute unless block ~ ~ ~-1 air unless block ~ ~ ~-1 grass_block unless block ~ ~ ~-1 dirt run summon shulker ~ ~ ~-1
+
 kill
