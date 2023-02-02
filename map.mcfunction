@@ -1,13 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 summon marker ~ ~ ~ {Tags:["tile","x"]}
 summon marker ~ ~ ~ {Tags:["tile","x"]}
 summon marker ~ ~ ~ {Tags:["tile","x"]}
 summon marker ~ ~ ~ {Tags:["tile","x"]}
 =======
+=======
+>>>>>>> parent of aa84ed6 (오와리다 시이이이발)
 summon marker ~ ~1 ~0.5 {Tags:["tile","x"]}
 summon marker ~ ~1 ~-0.5 {Tags:["tile","x"]}
 summon marker ~ ~ ~0.5 {Tags:["tile","x"]}
 summon marker ~ ~ ~-0.5 {Tags:["tile","x"]}
+<<<<<<< HEAD
 
 summon marker ~0.5 ~0.5 ~0.5 {Tags:["tile","y"]}
 summon marker ~0.5 ~0.5 ~-0.5 {Tags:["tile","y"]}
@@ -52,6 +56,22 @@ execute unless block ~ ~ ~1 air unless block ~ ~ ~1 grass_block unless block ~ ~
 execute unless block ~ ~ ~-1 air unless block ~ ~ ~-1 grass_block unless block ~ ~ ~-1 dirt run summon shulker ~ ~ ~-1
 
 =======
+setblock ~ ~ ~ stone
+>>>>>>> parent of aa84ed6 (오와리다 시이이이발)
+=======
+
+summon marker ~0.5 ~0.5 ~0.5 {Tags:["tile","y"]}
+summon marker ~0.5 ~0.5 ~-0.5 {Tags:["tile","y"]}
+summon marker ~-0.5 ~0.5 ~0.5 {Tags:["tile","y"]}
+summon marker ~-0.5 ~0.5 ~-0.5 {Tags:["tile","y"]}
+
+summon marker ~0.5 ~1 ~ {Tags:["tile","z"]}
+summon marker ~0.5 ~ ~ {Tags:["tile","z"]}
+summon marker ~-0.5 ~1 ~ {Tags:["tile","z"]}
+summon marker ~-0.5 ~ ~ {Tags:["tile","z"]}
+
+summon marker ~ ~0.5 ~ {Tags:["counter"]}
+
 setblock ~ ~ ~ stone
 >>>>>>> parent of aa84ed6 (오와리다 시이이이발)
 kill
