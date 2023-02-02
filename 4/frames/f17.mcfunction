@@ -1,0 +1,21 @@
+
+particle end_rod ^-1.864 ^-1.475 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^-1.101 ^-1.771 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^-0.423 ^-1.730 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^0.042 ^-1.482 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^0.266 ^-1.190 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^0.314 ^-0.993 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^0.312 ^-0.958 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^0.400 ^-1.061 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^0.671 ^-1.195 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^1.135 ^-1.211 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^1.706 ^-0.972 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^2.224 ^-0.410 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^2.501 ^0.442 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^2.382 ^1.449 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^1.800 ^2.400 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^0.803 ^3.067 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^-0.444 ^3.265 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^-1.702 ^2.912 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^-2.713 ^2.050 ^0.000 0 0 0 0 1 force @a
+particle end_rod ^-3.271 ^0.842 ^0.000 0 0 0 0 1 force @a
